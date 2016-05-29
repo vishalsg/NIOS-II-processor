@@ -1,0 +1,101 @@
+[*]
+[*] GTKWave Analyzer v3.3.65 (w)1999-2015 BSI
+[*] Wed May 11 23:09:24 2016
+[*]
+[dumpfile] "/home/ki/kika6069/EE275/term_project/nios2.vcd"
+[dumpfile_mtime] "Wed May 11 06:36:25 2016"
+[dumpfile_size] 100511
+[savefile] "/home/ki/kika6069/EE275/term_project/nios2.gtkw"
+[timestart] 105
+[size] 1000 600
+[pos] -1 -1
+*-5.961850 189 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_nios_2.
+[sst_width] 214
+[signals_width] 290
+[sst_expanded] 1
+[sst_vpaned_height] 151
+@c00022
+tb_nios_2.nios_2_inst.prog_count[7:0]
+@28
+(0)tb_nios_2.nios_2_inst.prog_count[7:0]
+(1)tb_nios_2.nios_2_inst.prog_count[7:0]
+(2)tb_nios_2.nios_2_inst.prog_count[7:0]
+(3)tb_nios_2.nios_2_inst.prog_count[7:0]
+(4)tb_nios_2.nios_2_inst.prog_count[7:0]
+(5)tb_nios_2.nios_2_inst.prog_count[7:0]
+(6)tb_nios_2.nios_2_inst.prog_count[7:0]
+(7)tb_nios_2.nios_2_inst.prog_count[7:0]
+@1401200
+-group_end
+@22
+tb_nios_2.nios_2_inst.opcode_c[5:0]
+tb_nios_2.nios_2_inst.inst_fetch[31:0]
+@28
+tb_nios_2.nios_2_inst.forwarding
+tb_nios_2.nios_2_inst.i_type_c
+tb_nios_2.nios_2_inst.j_type_c
+tb_nios_2.nios_2_inst.r_type_c
+@24
+tb_nios_2.nios_2_inst.rega_addr_c[4:0]
+tb_nios_2.nios_2_inst.regb_addr_c[4:0]
+@25
+tb_nios_2.nios_2_inst.regc_addr_c[4:0]
+@22
+tb_nios_2.nios_2_inst.regA[31:0]
+tb_nios_2.nios_2_inst.regB[31:0]
+tb_nios_2.nios_2_inst.regC[31:0]
+tb_nios_2.nios_2_inst.immi_val_c[31:0]
+@28
+tb_nios_2.nios_2_inst.i_type
+tb_nios_2.nios_2_inst.j_type
+tb_nios_2.nios_2_inst.r_type
+tb_nios_2.nios_2_inst.branch_taken
+@22
+tb_nios_2.nios_2_inst.alu_op[31:0]
+tb_nios_2.nios_2_inst.alu_op_c[31:0]
+tb_nios_2.nios_2_inst.twos_comp[31:0]
+@28
+tb_nios_2.nios_2_inst.alu_opr_c[1:0]
+@22
+tb_nios_2.nios_2_inst.opcode_ex[5:0]
+tb_nios_2.nios_2_inst.immi_val[31:0]
+@28
+tb_nios_2.nios_2_inst.clk
+tb_nios_2.nios_2_inst.mem_op_c
+tb_nios_2.nios_2_inst.data_mem_rd_o
+tb_nios_2.nios_2_inst.data_mem_wr_o
+@22
+tb_nios_2.nios_2_inst.data_mem_addr_o[31:0]
+tb_nios_2.nios_2_inst.data_mem_wdata_o[31:0]
+tb_nios_2.nios_2_inst.data_mem_rdata_i[31:0]
+tb_nios_2.nios_2_inst.data_mem_addr_o[31:0]
+@28
+tb_nios_2.nios_2_inst.enable
+@22
+tb_nios_2.nios_2_inst.opcode_mem[5:0]
+tb_nios_2.nios_2_inst.prog_count_c[7:0]
+tb_nios_2.nios_2_inst.prog_count_o[7:0]
+tb_nios_2.nios_2_inst.regA_mem[31:0]
+tb_nios_2.nios_2_inst.regB_mem[31:0]
+tb_nios_2.nios_2_inst.regC_mem[31:0]
+tb_nios_2.nios_2_inst.rega_addr[4:0]
+tb_nios_2.nios_2_inst.regb_addr[4:0]
+tb_nios_2.nios_2_inst.regc_addr[4:0]
+tb_nios_2.nios_2_inst.rega_addr_mem[4:0]
+tb_nios_2.nios_2_inst.regb_addr_mem[4:0]
+tb_nios_2.nios_2_inst.regc_addr_mem[4:0]
+tb_nios_2.nios_2_inst.rega_addr_wb[4:0]
+tb_nios_2.nios_2_inst.regb_addr_wb[4:0]
+tb_nios_2.nios_2_inst.regc_addr_wb[4:0]
+@28
+tb_nios_2.nios_2_inst.j_type_wb
+tb_nios_2.nios_2_inst.wb_exec
+@22
+tb_nios_2.nios_2_inst.wb_data[31:0]
+tb_nios_2.nios_2_inst.prog_count_ex[7:0]
+tb_nios_2.nios_2_inst.wb_reg_addr[4:0]
+@28
+tb_nios_2.nios_2_inst.rst
+[pattern_trace] 1
+[pattern_trace] 0

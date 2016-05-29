@@ -1,0 +1,1096 @@
+
+                        DC Professional (TM)
+                           DC Expert (TM)
+                            DC Ultra (TM)
+                       FloorPlan Manager (TM)
+                          HDL Compiler (TM)
+                         VHDL Compiler (TM)
+                        Library Compiler (TM)
+                      DesignWare Developer (TM)
+                          DFT Compiler (TM)
+                            BSD Compiler
+                         Power Compiler (TM)
+
+           Version C-2009.06-SP5 for linux -- Jan 15, 2010
+              Copyright (c) 1988-2009 by Synopsys, Inc.
+                         ALL RIGHTS RESERVED
+
+This software and the associated documentation are confidential and 
+proprietary to Synopsys, Inc. Your use or disclosure of this software 
+is subject to the terms and conditions of a written license agreement 
+between you, or your company, and Synopsys, Inc.
+
+The above trademark notice does not imply that you are licensed to use 
+all of the listed products. You are licensed to use only those products 
+for which you have lawfully obtained a valid license key.
+
+Initializing...
+set link_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb
+set target_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25
+read_verilog nios_2.v
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/gtech.db'
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/standard.sldb'
+  Loading link library 'tc240c'
+Warning: Function '=' leaked 1 allocations for 16 bytes. (EQN-21)
+  Loading link library 'gtech'
+Loading verilog file '/home/ki/kika6069/EE275/term_project/nios_2.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Compiling source file /home/ki/kika6069/EE275/term_project/nios_2.v
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:92: the undeclared symbol 'i_type_c' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:99: the undeclared symbol 'j_type_c' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:102: the undeclared symbol 'r_type_c' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:170: the undeclared symbol 'i_type_wb_c' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:171: the undeclared symbol 'j_type_wb_c' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:189: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:190: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:191: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:192: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:193: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:194: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:195: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:196: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:197: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:198: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:199: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:200: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:201: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:202: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:203: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:204: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:205: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:206: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:207: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:208: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:209: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:210: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:211: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:212: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:213: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:214: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:215: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:216: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:217: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:218: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:219: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:220: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:221: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:222: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:223: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:224: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:225: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:226: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:227: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:228: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:229: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:230: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:231: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:232: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:233: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:234: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:235: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:236: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:237: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:242: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:243: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:246: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:247: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:249: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:250: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:251: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:252: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:253: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:254: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:255: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:256: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:257: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:258: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:259: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:260: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:261: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:262: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:263: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:264: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:265: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:266: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:267: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:268: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:269: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:270: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:271: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:272: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:273: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:274: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:275: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:276: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:277: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:278: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:279: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:280: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:281: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:282: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/ki/kika6069/EE275/term_project/nios_2.v:285: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+$display output: Write @ Reg[?] = ? 
+
+Inferred memory devices in process
+	in routine nios_2 line 185 in file
+		'/home/ki/kika6069/EE275/term_project/nios_2.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    alu_op_wb_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  regc_addr_mem_reg  | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    opcode_ex_reg    | Flip-flop |   6   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   r_type_mem_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |   2   |  Y  | N  | N  | Y  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  16   |  Y  | N  | N  | Y  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+|      regA_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  608  |  N  | N  | N  | N  | N  | N  | N  |
+|   j_type_mem_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|  prog_count_ex_reg  | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    r_type_wb_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     r_type_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   prog_count_reg    | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   opcode_mem_reg    | Flip-flop |   6   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    regb_addr_reg    | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  regb_addr_wb_reg   | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  prog_count_de_reg  | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  regb_addr_mem_reg  | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  data_mem_rd_d_reg  | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  30   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  29   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  16   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_mem_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    regc_addr_reg    | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  regc_addr_wb_reg   | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regB_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    regB_mem_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   i_type_mem_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     j_type_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     i_type_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    j_type_wb_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     alu_op_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    i_type_wb_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|  opcode_ext_ex_reg  | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    immi_val_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+===========================================================
+| block name/line  | Inputs | Outputs | # sel inputs | MB |
+===========================================================
+|    nios_2/249    |   32   |   32    |      5       | N  |
+|    nios_2/246    |   32   |   32    |      5       | N  |
+===========================================================
+Presto compilation completed successfully.
+Current design is now '/home/ki/kika6069/EE275/term_project/nios_2.db:nios_2'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loaded 1 design.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Current design is 'nios_2'.
+nios_2
+create_clock clk -name clk -period 2.475
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+1
+set_propagated_clock clk
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_clock_uncertainty 0.25 clk
+1
+set_propagated_clock clk
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_output_delay 0.5 -clock clk [all_outputs]
+1
+set all_inputs_wo_rst_clk [remove_from_collection [remove_from_collection [all_inputs] [get_port clk]] [get_port rst]]
+{enable inst_fetch[31] inst_fetch[30] inst_fetch[29] inst_fetch[28] inst_fetch[27] inst_fetch[26] inst_fetch[25] inst_fetch[24] inst_fetch[23] inst_fetch[22] inst_fetch[21] inst_fetch[20] inst_fetch[19] inst_fetch[18] inst_fetch[17] inst_fetch[16] inst_fetch[15] inst_fetch[14] inst_fetch[13] inst_fetch[12] inst_fetch[11] inst_fetch[10] inst_fetch[9] inst_fetch[8] inst_fetch[7] inst_fetch[6] inst_fetch[5] inst_fetch[4] inst_fetch[3] inst_fetch[2] inst_fetch[1] inst_fetch[0] data_mem_rdata_i[31] data_mem_rdata_i[30] data_mem_rdata_i[29] data_mem_rdata_i[28] data_mem_rdata_i[27] data_mem_rdata_i[26] data_mem_rdata_i[25] data_mem_rdata_i[24] data_mem_rdata_i[23] data_mem_rdata_i[22] data_mem_rdata_i[21] data_mem_rdata_i[20] data_mem_rdata_i[19] data_mem_rdata_i[18] data_mem_rdata_i[17] data_mem_rdata_i[16] data_mem_rdata_i[15] data_mem_rdata_i[14] data_mem_rdata_i[13] data_mem_rdata_i[12] data_mem_rdata_i[11] data_mem_rdata_i[10] data_mem_rdata_i[9] data_mem_rdata_i[8] data_mem_rdata_i[7] data_mem_rdata_i[6] data_mem_rdata_i[5] data_mem_rdata_i[4] data_mem_rdata_i[3] data_mem_rdata_i[2] data_mem_rdata_i[1] data_mem_rdata_i[0]}
+set_driving_cell -lib_cell CND2X1 $all_inputs_wo_rst_clk
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+1
+set_input_delay 0.6 -clock clk $all_inputs_wo_rst_clk
+1
+set_output_delay 0.6 -clock clk [all_outputs]
+1
+set_fix_hold [ get_clocks clk ]
+1
+set_output_delay 0.3 -clock clk [all_outputs]
+1
+compile -map_effort high
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library       |      Version       | Available |
+============================================================================
+| Basic DW Building Blocks                | C-2009.06-DWBB_0912 |    *     |
+| Licensed DW Building Blocks             |                    |           |
+============================================================================
+
+
+Information: There are 1 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'nios_2'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+
+  Beginning Implementation Selection
+  ----------------------------------
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+  Processing 'nios_2_DW01_cmp6_0'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+  Processing 'nios_2_DW01_add_0'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+  Processing 'nios_2_DW01_add_1'
+  Processing 'nios_2_DW01_add_2'
+  Processing 'nios_2_DW01_add_3'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+  Processing 'nios_2_DW01_add_4'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+  Processing 'nios_2_DW01_cmp6_1'
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+  Processing 'nios_2_DW01_sub_0'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+  Processing 'nios_2_DW01_inc_0'
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+  Mapping Optimization (Phase 1)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+  Mapping Optimization (Phase 2)
+  Mapping Optimization (Phase 3)
+  Mapping Optimization (Phase 4)
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:57   22774.0      0.40     227.6       0.0                                0.00
+    0:01:00   17650.5      1.10     402.5       0.0                                0.00
+    0:01:01   17641.0      0.85     556.6       0.0                                0.00
+    0:01:01   17637.5      0.74     418.9       0.0                                0.00
+    0:01:01   17629.5      0.74     471.9       0.0                                0.00
+    0:01:02   17629.5      0.74     414.9       0.0                                0.00
+    0:01:02   17635.0      0.73     471.5       0.0                                0.00
+    0:01:02   17634.5      0.75     413.7       0.0                                0.00
+    0:01:02   17634.5      0.70     469.6       0.0                                0.00
+    0:01:02   17639.0      0.72     411.3       0.0                                0.00
+    0:01:03   17648.0      0.67     376.9       0.0                                0.00
+    0:01:03   17652.0      0.66     374.6       0.0                                0.00
+    0:01:03   17649.0      0.65     373.4       0.0                                0.00
+    0:01:03   17654.5      0.60     405.4       0.0                                0.00
+    0:01:03   17656.5      0.59      76.3       0.0                                0.00
+    0:01:03   17659.5      0.59      76.1       0.0                                0.00
+    0:01:03   17664.5      0.58      75.3       0.0                                0.00
+    0:01:03   17673.5      0.56      75.2       0.0                                0.00
+    0:01:04   17685.0      0.55      73.4       0.0                                0.00
+    0:01:04   17690.0      0.53      72.4       0.0                                0.00
+    0:01:04   17642.5      0.53      72.4       0.0                                0.00
+    0:01:04   17642.5      0.53      72.4       0.0                                0.00
+    0:01:04   17642.5      0.53      72.4       0.0                                0.00
+    0:01:04   17642.5      0.53      72.4       0.0                                0.00
+    0:01:04   17642.5      0.53      72.4       0.0                                0.00
+    0:01:06   17855.0      0.40      66.6       0.0                                0.00
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:01:06   17855.0      0.40      66.6       0.0                                0.00
+    0:01:07   17929.0      0.37      65.1       0.0 regB_reg[8]/D                  0.00
+    0:01:08   17964.5      0.36      63.5       0.0 regA_reg[18]/D                 0.00
+    0:01:09   17984.5      0.34      61.4       0.0 regA_reg[29]/D                 0.00
+    0:01:10   17976.0      0.33      61.2       0.0 regB_reg[20]/D                 0.00
+    0:01:11   17985.5      0.33      60.8       0.0 regB_reg[17]/D                 0.00
+    0:01:12   18014.0      0.32      59.8       0.0 regA_reg[22]/D                 0.00
+    0:01:13   18012.5      0.31      59.6       0.0 regA_reg[25]/D                 0.00
+    0:01:14   18010.0      0.31      59.5       0.0 regB_reg[17]/D                 0.00
+    0:01:15   18032.0      0.31      59.6       0.0 regB_reg[13]/D                 0.00
+    0:01:16   18052.0      0.30      59.0       0.0 regA_reg[18]/D                 0.00
+    0:01:16   18057.5      0.30      58.8       0.0 regA_reg[26]/D                 0.00
+    0:01:17   18055.0      0.30      58.7       0.0 regB_reg[4]/D                  0.00
+    0:01:26   18054.0      0.30      58.7       0.0                                0.00
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+    0:01:28   18045.5      0.30      58.7       0.0 regB_reg[4]/D                  0.00
+    0:01:29   18049.5      0.30      58.7       0.0 regB_reg[2]/D                  0.00
+    0:01:29   18065.0      0.30      58.6       0.0 regB_reg[11]/D                 0.00
+    0:01:30   18064.0      0.30      58.5       0.0 regB_reg[19]/D                 0.00
+    0:01:30   18065.5      0.30      58.5       0.0 regB_reg[24]/D                 0.00
+    0:01:31   18118.5      0.30      58.4       0.0 regB_reg[10]/D                 0.00
+    0:01:32   18185.0      0.30      58.3       0.0 regB_reg[20]/D                 0.00
+    0:01:33   18265.5      0.30      58.3       0.0 regB_reg[27]/D                 0.00
+    0:01:35   18263.5      0.30      58.3       0.0                                0.00
+    0:01:35   18253.0      0.30      58.4       0.0                             -133.77
+
+
+  Beginning Design Rule Fixing  (min_path)
+  ----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:01:35   18253.0      0.30      58.4       0.0                             -133.77
+    0:01:37   18516.0      0.29      56.6       0.0                               -0.15
+    0:01:37   18610.0      0.29      56.5       0.0                               -0.16
+    0:01:38   18834.5      0.29      56.2       0.0                               -0.16
+    0:01:39   19183.0      0.29      55.8       0.0                               -0.26
+    0:01:39   19470.0      0.29      54.9       0.0                               -0.26
+    0:01:40   19465.0      0.29      53.9       0.0                               -0.37
+    0:01:41   19572.5      0.29      35.3       0.0                               -0.43
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:01:41   19572.5      0.29      35.3       0.0                               -0.43
+    0:01:41   19572.5      0.29      35.3       0.0                               -0.43
+    0:01:41   19478.5      0.29      33.8       0.0                               -0.43
+    0:01:42   19411.5      0.29      32.7       0.0                               -0.43
+    0:01:42   19373.5      0.29      31.6       0.0                               -0.43
+    0:01:42   19337.5      0.29      30.6       0.0                               -0.43
+    0:01:42   19304.5      0.29      29.6       0.0                               -0.43
+    0:01:42   19271.5      0.29      28.6       0.0                               -0.43
+    0:01:42   19241.5      0.29      24.9       0.0                               -0.43
+    0:01:42   19212.5      0.29      21.8       0.0                               -0.43
+    0:01:43   19178.0      0.29      21.3       0.0                               -0.43
+    0:01:43   19153.0      0.29      21.2       0.0                               -0.43
+    0:01:43   19134.0      0.29      21.2       0.0                               -0.43
+    0:01:43   19116.0      0.29      21.2       0.0                               -0.43
+    0:01:43   19101.0      0.29      21.2       0.0                               -0.43
+    0:01:43   19101.0      0.29      21.2       0.0                               -0.43
+    0:01:43   19101.0      0.29      21.2       0.0                               -0.43
+    0:01:43   17991.5      0.30      21.5       0.0                               -0.33
+    0:01:43   17884.0      0.30      21.6       0.0                               -0.33
+    0:01:43   17884.0      0.30      21.6       0.0                               -0.33
+    0:01:43   17884.0      0.30      21.6       0.0                               -0.33
+    0:01:43   17884.0      0.30      21.6       0.0                               -0.33
+    0:01:43   17884.0      0.30      21.6       0.0                               -0.33
+    0:01:43   17884.0      0.30      21.6       0.0                               -0.33
+    0:01:44   17889.0      0.29      21.5       0.0 regA_reg[11]/D                -0.33
+    0:01:45   17896.5      0.28      21.4       0.0 regA_reg[1]/D                 -0.33
+    0:01:45   17909.5      0.27      21.1       0.0 regA_reg[17]/D                -0.33
+    0:01:46   17911.5      0.27      21.0       0.0                               -0.33
+    0:01:47   17890.5      0.27      21.0       0.0                               -0.01
+    0:01:48   17901.5      0.27      20.7       0.0                               -0.02
+    0:01:49   17929.5      0.27      20.4       0.0                               -0.02
+    0:01:50   18063.0      0.27      20.2       0.0                               -0.02
+    0:01:50   18237.0      0.27      20.0       0.0                               -0.02
+    0:01:51   18383.5      0.27      19.8       0.0                               -0.11
+    0:01:52   18381.0      0.26      19.7       0.0 regA_reg[17]/D                -0.11
+    0:01:53   18389.5      0.26      19.8       0.0 regA_reg[20]/D                -0.11
+    0:01:53   18390.5      0.26      19.8       0.0                               -0.11
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'nios_2' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'clk': 1303 load(s), 1 driver(s)
+1
+create_clock clk -name clk -period 5
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+Warning: Can't read link_library file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'. (UID-3)
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Error: Can't read in the DB file 'dw_foundation.sldb'.
+	File 'dw_foundation.sldb' is created using program version 'I-2013.12-SP5'
+	which is newer than 'C-2009.06-SP5'. (UID-403)
+Error: Could not read in the DB file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'.
+1
+update_timing
+Information: Updating design information... (UID-85)
+Warning: Design 'nios_2' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+1
+report_timing -max_paths 3
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : nios_2
+Version: C-2009.06-SP5
+Date   : Tue May 10 01:09:05 2016
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: NOMIN25   Library: tc240c
+Wire Load Model Mode: top
+
+  Startpoint: inst_fetch[3]
+              (input port clocked by clk)
+  Endpoint: regA_reg[24]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 r
+  inst_fetch[3] (in)                       0.04       0.64 r
+  U2775/Z (CIVXL)                          0.07       0.71 f
+  U2774/Z (CIVXL)                          0.06       0.77 r
+  U2771/Z (CMXI2X1)                        0.12       0.89 f
+  U2747/Z (CANR1X2)                        0.12       1.01 r
+  U2748/Z (CND3X2)                         0.14       1.14 f
+  U2851/Z (CND2IX2)                        0.09       1.23 r
+  U2956/Z (CIVX2)                          0.08       1.31 f
+  U2840/Z (CNIVX4)                         0.14       1.45 f
+  U4183/Z (CMXI2X1)                        0.13       1.58 f
+  U3070/Z (CMXI2X1)                        0.12       1.70 r
+  U3112/Z (CND2X1)                         0.09       1.78 f
+  U3113/Z (CND2X1)                         0.06       1.84 r
+  U2271/Z (CIVX1)                          0.05       1.89 f
+  U2781/Z (CMXI2X1)                        0.12       2.01 r
+  U2907/Z (CND2X1)                         0.08       2.09 f
+  U1755/Z (CND2XL)                         0.05       2.14 r
+  U2910/Z (CMX2XL)                         0.13       2.27 r
+  regA_reg[24]/D (CFD2XL)                  0.00       2.27 r
+  data arrival time                                   2.27
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (ideal)              0.00       5.00
+  clock uncertainty                       -0.25       4.75
+  regA_reg[24]/CP (CFD2XL)                 0.00       4.75 r
+  library setup time                      -0.21       4.54
+  data required time                                  4.54
+  -----------------------------------------------------------
+  data required time                                  4.54
+  data arrival time                                  -2.27
+  -----------------------------------------------------------
+  slack (MET)                                         2.27
+
+
+  Startpoint: inst_fetch[3]
+              (input port clocked by clk)
+  Endpoint: regA_reg[29]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  inst_fetch[3] (in)                       0.05       0.65 f
+  U2775/Z (CIVXL)                          0.05       0.70 r
+  U2774/Z (CIVXL)                          0.06       0.76 f
+  U2771/Z (CMXI2X1)                        0.16       0.91 r
+  U2747/Z (CANR1X2)                        0.12       1.03 f
+  U2748/Z (CND3X2)                         0.07       1.10 r
+  U2851/Z (CND2IX2)                        0.11       1.21 f
+  U3097/Z (CIVX2)                          0.07       1.29 r
+  U3100/Z (CNIVX4)                         0.13       1.42 r
+  U1793/Z (CMX2XL)                         0.24       1.65 f
+  U3366/Z (CMXI2X1)                        0.12       1.77 r
+  U2612/Z (CMXI2X1)                        0.10       1.88 f
+  U2819/Z (CMXI2X1)                        0.12       2.00 r
+  U2844/Z (CMXI2X1)                        0.10       2.10 f
+  U1582/Z (CNR2IX1)                        0.07       2.17 r
+  U1581/Z (CND2IX1)                        0.11       2.29 r
+  regA_reg[29]/D (CFD2X1)                  0.00       2.29 r
+  data arrival time                                   2.29
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (ideal)              0.00       5.00
+  clock uncertainty                       -0.25       4.75
+  regA_reg[29]/CP (CFD2X1)                 0.00       4.75 r
+  library setup time                      -0.19       4.56
+  data required time                                  4.56
+  -----------------------------------------------------------
+  data required time                                  4.56
+  data arrival time                                  -2.29
+  -----------------------------------------------------------
+  slack (MET)                                         2.27
+
+
+  Startpoint: inst_fetch[3]
+              (input port clocked by clk)
+  Endpoint: regA_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  inst_fetch[3] (in)                       0.05       0.65 f
+  U2775/Z (CIVXL)                          0.05       0.70 r
+  U2774/Z (CIVXL)                          0.06       0.76 f
+  U2771/Z (CMXI2X1)                        0.16       0.91 r
+  U2747/Z (CANR1X2)                        0.12       1.03 f
+  U2746/Z (CND3X2)                         0.09       1.12 r
+  U3541/Z (CND2X2)                         0.12       1.24 f
+  U3035/Z (CIVX1)                          0.12       1.36 r
+  U3044/Z (CNIVX4)                         0.17       1.53 r
+  U4840/Z (CMXI2X1)                        0.15       1.68 r
+  U1525/Z (CMXI2X1)                        0.10       1.78 f
+  U4841/Z (CMXI2X1)                        0.11       1.89 r
+  U1569/Z (CMXI2XL)                        0.10       1.99 f
+  U2181/Z (CMXI2XL)                        0.16       2.15 r
+  U2828/Z (CMXI2X1)                        0.11       2.26 f
+  regA_reg[2]/D (CFD2QX2)                  0.00       2.26 f
+  data arrival time                                   2.26
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (ideal)              0.00       5.00
+  clock uncertainty                       -0.25       4.75
+  regA_reg[2]/CP (CFD2QX2)                 0.00       4.75 r
+  library setup time                      -0.22       4.53
+  data required time                                  4.53
+  -----------------------------------------------------------
+  data required time                                  4.53
+  data arrival time                                  -2.26
+  -----------------------------------------------------------
+  slack (MET)                                         2.27
+
+
+1
+report_area
+ 
+****************************************
+Report : area
+Design : nios_2
+Version: C-2009.06-SP5
+Date   : Tue May 10 01:09:05 2016
+****************************************
+
+Library(s) Used:
+
+    tc240c (File: /apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25)
+
+Number of ports:              141
+Number of nets:              7115
+Number of cells:             6801
+Number of references:          94
+
+Combinational area:       12552.500000
+Noncombinational area:    5838.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          18390.500000
+Total area:                 undefined
+1
+report_power
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+Warning: Main library 'tc240c' does not specify the following unit required for power: 'Leakage Power'. (PWR-424)
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : nios_2
+Version: C-2009.06-SP5
+Date   : Tue May 10 01:09:06 2016
+****************************************
+
+
+Library(s) Used:
+
+    tc240c (File: /apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25)
+
+
+Operating Conditions: NOMIN25   Library: tc240c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 2.5  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = Unitless
+
+
+  Cell Internal Power  =  53.1498 mW   (96%)
+  Net Switching Power  =   2.2792 mW    (4%)
+                         ---------
+Total Dynamic Power    =  55.4290 mW  (100%)
+
+Cell Leakage Power     =   0.0000 
+
+1
+write -hierarchy -format verilog -output nios2_gates.v
+Writing verilog file '/home/ki/kika6069/EE275/term_project/nios2_gates.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+1
+quit
+
+Thank you...
